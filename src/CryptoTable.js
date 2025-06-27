@@ -15,7 +15,7 @@ import Fab from "@mui/material/Fab";
 import NavigationIcon from "@mui/icons-material/Navigation";
 
 const API_KEY =
-  "bb68043c14088a49353a041447e309cc39a16111bec30439311931d1692fbe8b";
+  "9d8e3958fcc78ebc951c75194b093716d4712015a4bfbe27b868677ae233756e";
 const API_URL = "https://rest.coincap.io/v3/assets";
 
 const CryptoTable = () => {
