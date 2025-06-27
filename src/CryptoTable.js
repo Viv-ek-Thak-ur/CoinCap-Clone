@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import {
   Table,
   TableBody,
@@ -7,10 +7,8 @@ import {
   TableHead,
   TableRow,
   Paper,
-  Button,
   CircularProgress,
   Avatar,
-  Typography,
 } from "@mui/material";
 import Box from "@mui/material/Box";
 import Fab from "@mui/material/Fab";
@@ -44,7 +42,7 @@ const CryptoTable = () => {
 
   useEffect(() => {
     fetchCoins(0, false);
-  }, []);
+  });
 
   const loadMore = () => {
     const newOffset = offset + 50;

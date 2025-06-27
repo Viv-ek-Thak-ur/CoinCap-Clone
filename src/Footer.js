@@ -1,8 +1,6 @@
-import React from "react";
+
 import { Box, Grid, Typography, Link, Stack } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close"; // Using as placeholder for "X" (Twitter/X)
-import AndroidIcon from "@mui/icons-material/Android";
-import AppleIcon from "@mui/icons-material/Apple";
 
 const Footer = () => {
   return (
